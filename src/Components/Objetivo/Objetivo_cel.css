@@ -1,0 +1,93 @@
+/* Estilos para largura de tela menor ou igual a 768 pixels (celular)*/
+@media (max-width: 768px) {
+    .section2_mobile {
+        display: flex;
+        background-color: #ffffff;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        overflow-x: hidden;
+        height: 100vh;
+        width: 100%;
+    }
+
+
+    .section2_mobile .titleBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 242px;
+        width: 100%;
+        margin-top: 15%;
+    }
+
+    .section2_mobile .titleBox2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width:100%;
+    }
+
+    .section2_mobile .fontBlack {
+        font-size: 54px;
+        line-height: 50%;
+        margin-left: 3%;
+        color: #505050;
+        font-family: "raleway-bold";
+        z-index: 3;
+    }
+
+    .section2_mobile .font-Orange2 {
+        display: flex;
+        font-size: 70px;
+        line-height: 70%;
+        color: #FF7152;
+        font-family: "raleway-black";
+        margin-left: 10%;
+    }
+
+    .objective-text{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .section2_mobile .font-Text {
+        font-family: 'raleway-medium';
+        font-size: 20px;
+        color: #707070;
+        width: 85%;
+        height: 100%;
+        text-align: justify;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .containerimg {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        position: relative;
+        height: 40%;
+        width: 100%;
+    }
+
+    .section2_mobile .imgOrange {
+        display: flex;
+        position: absolute;
+        background: linear-gradient(#FF7152, #ffc852f5);
+        border-radius: 100px 0px 0px 280px;
+        width: 60%;
+        height: 80%;
+        box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.19);
+        z-index: 0;
+    }
+
+    .section2_mobile img {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 110%;
+        margin-top:-10%;
+        z-index: 1;
+    }
+}

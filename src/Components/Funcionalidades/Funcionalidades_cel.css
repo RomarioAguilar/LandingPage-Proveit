@@ -1,0 +1,97 @@
+/* Estilos para largura de tela menor ou igual a 768 pixels (celular)*/
+@media (max-width: 768px) {
+    .section3_mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #2e2929cb;
+        height: 200vh;
+        width: 100%;
+        background-image: url("imgs/fundo-boltneva.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+    }
+
+    .container_funcionalidades {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 9%;
+    }
+
+    .section3_mobile .title {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-top: 7%;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.19);
+    }
+
+    .section3_mobile .font-White {
+        font-size: 48px;
+        opacity: 90%;
+        font-family: "raleway-bold";
+        color: #fff;
+    }
+
+    .section3_mobile .font-Orange2 {
+        font-family: 'raleway-black';
+        font-size: 40px;
+        line-height: 1%;
+        color: #FF7152;
+        z-index: 2;
+        margin-left: 3%;
+    }
+
+    .section3_mobile .container_funcionalidades img {
+        width: 50%;
+    }
+
+    .section3_mobile .card_funcionalities {
+        display: grid;
+        grid-template-columns: auto;
+        width: 90%;
+        height: 70%;
+    }
+
+    .section3_mobile .card_funcionalities>div {
+        text-align: justify;
+        padding: 5%;
+    }
+
+    .section3_mobile .card_funcionalities text {
+        color: #fff;
+        font-size: 20px;
+        font-family: "raleway-regular";
+    }
+
+    .section3_mobile .cardtext {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section3_mobile .card_funcionalities h1 {
+        display: flex;
+        font-size: 22px;
+        color: #ffffff;
+        padding-bottom: 10%;
+        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: "raleway-extrabold";
+    }
+
+    .section3_mobile .card_funcionalities img {
+        width: 20%;
+        margin-right: 2%;
+    }
+
+    .imgcelular {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 20%;
+    }
+}
